@@ -1,12 +1,26 @@
 import http from 'http';
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 3001;
 
 const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello World');
+    if (req.method == 'POST') {
+        console.log('POST')
+        var body = ''
+        req.on('data', function (data) {
+            body += data
+            console.log('Partial body: ' + body)
+        })
+        req.on('end', function () {
+            console.log('Body: ' + body)
+            res.writeHead(200, { 'Content-Type': 'application/json' })
+            res.end('post received')
+        })
+    } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/plain');
+        res.end('Hello World');
+    }
 });
 
 server.listen(port, hostname, () => {
