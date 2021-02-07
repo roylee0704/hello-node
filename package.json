@@ -8,5 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "roylee0704 <roylee0704@gmail.com> (https://twitter.com/roylee0704)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "accesscontrol": "^2.2.1"
+  }
 }
