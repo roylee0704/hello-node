@@ -22,10 +22,14 @@ function genThirdWebJsonFromImages(dir, ext, collectionName) {
   );
 }
 
+const dir = process.env.DIR;
+const nftName = process.env.NFT_NAME;
+const nftMediaFormat = process.env.NFT_MEDIA_FORMAT;
+
 const json = genThirdWebJsonFromImages(
-  "./images/",
-  ".png",
-  "Pokemon Collection "
+  dir + "/images/",
+  nftMediaFormat,
+  nftName
 );
 
-fs.writeFileSync("./metadata.json", JSON.stringify(json));
+fs.writeFileSync(dir + "/metadata.json", JSON.stringify(json));
