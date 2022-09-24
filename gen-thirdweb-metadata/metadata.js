@@ -15,13 +15,24 @@ for (let i = 0; i < iterator.length; i++) {
 
   for (let x = 0; x < iterator[i].count; x++) {
     json.push({
-      name: "THE ELITE 101",
+      name: "Colorverse Genesis NFT",
       animation_url: `https://bafybeid7456yfoqrivmocrzafquwrmmbmflvmwntezmq4qzxbxv3dxqwsm.ipfs.nftstorage.link/${iterator[
         i
       ].tier.toLowerCase()}.mp4`,
       image: `https://bafybeid7456yfoqrivmocrzafquwrmmbmflvmwntezmq4qzxbxv3dxqwsm.ipfs.nftstorage.link/${iterator[
         i
       ].tier.toLowerCase()}.png`,
+      attributes: [
+        {
+          Tier: iterator[i].tier,
+        },
+      ],
+      properties: [
+        {
+          Tier: iterator[i].tier,
+        },
+      ],
+      external_url: `https://staging.colorverse.social/nft-collections/cl810p3y60000i8w23kxn1rg9`,
     });
   }
 
