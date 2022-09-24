@@ -17,7 +17,7 @@ function genThirdWebJsonFromImages(dir, ext, collectionName) {
       .map((f, i) => ({
         name: `${collectionName} #${i + 1}`,
         description: `${collectionName} #${i + 1}`,
-        image: f,
+        animation_url: f,
       }))
   );
 }
