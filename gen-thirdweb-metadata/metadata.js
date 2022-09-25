@@ -22,16 +22,12 @@ for (let i = 0; i < iterator.length; i++) {
       image: `https://bafybeid7456yfoqrivmocrzafquwrmmbmflvmwntezmq4qzxbxv3dxqwsm.ipfs.nftstorage.link/${iterator[
         i
       ].tier.toLowerCase()}.png`,
-      attributes: [
-        {
-          Tier: iterator[i].tier,
-        },
-      ],
-      properties: [
-        {
-          Tier: iterator[i].tier,
-        },
-      ],
+      attributes: {
+        Tier: iterator[i].tier,
+      },
+      properties: {
+        Tier: iterator[i].tier,
+      },
       external_url: `https://staging.colorverse.social/nft-collections/cl810p3y60000i8w23kxn1rg9`,
     });
   }
