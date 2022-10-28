@@ -33,7 +33,7 @@ for (let i = 0; i < iterator.length; i++) {
         Artist: "Kenny",
         Song: "It Doesn't Matter",
       },
-      external_url: `https://colorverse.social/nft-collections/cl810p3y60000i8w23kxn1rg9`,
+      external_url: `https://colorverse.social/nft-collections/cl7r55y1o00002vw2umse6pyb`,
     });
   }
 
