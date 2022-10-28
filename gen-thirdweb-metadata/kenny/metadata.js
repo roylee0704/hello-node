@@ -6,11 +6,11 @@ const iterator = [
   {
     delay:
       "https://bafybeiggiyet3fqbpjuzpvi42anyfc7awmnen47g5qifhviyjipz47l7ee.ipfs.nftstorage.link/10s.mp4",
-    full: "https://bafybeiggiyet3fqbpjuzpvi42anyfc7awmnen47g5qifhviyjipz47l7ee.ipfs.nftstorage.link/full.mp4",
+    full: "ipfs://bafybeida2ke7orusqa3us2c7dwikf7atbrlnczplieyr55jibcwkroayum",
     delayCover:
       "https://bafybeiaydjzezgvebbceknvzvvtkkfibjnnhmw3ijwrhbxco3gh2h2m4gy.ipfs.nftstorage.link/",
     fullCover:
-      "https://bafybeih37eyu7ldqjzmflmznchglzu35cthziwfcebd6qtbuxlb3scqsjq.ipfs.nftstorage.link/",
+      "ipfs://bafybeih37eyu7ldqjzmflmznchglzu35cthziwfcebd6qtbuxlb3scqsjq",
     count: 666,
   },
 ];
@@ -24,10 +24,14 @@ for (let i = 0; i < iterator.length; i++) {
       animation_url: iterator[i].full,
       image: iterator[i].fullCover,
       attributes: {
-        // Tier: iterator[i].tier,
+        Album: "It's Kenny",
+        Artist: "Kenny",
+        Song: "It Doesn't Matter",
       },
       properties: {
-        // Tier: iterator[i].tier,
+        Album: "It's Kenny",
+        Artist: "Kenny",
+        Song: "It Doesn't Matter",
       },
       external_url: `https://colorverse.social/nft-collections/cl810p3y60000i8w23kxn1rg9`,
     });
