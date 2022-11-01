@@ -26,12 +26,12 @@ for (let i = 0; i < iterator.length; i++) {
       image: iterator[i].fullCover,
       attributes: {
         Album: "It's Kenny",
-        Artist: "Kenny",
+        Artist: "Kenny Low",
         Song: "It Doesn't Matter",
       },
       properties: {
         Album: "It's Kenny",
-        Artist: "Kenny",
+        Artist: "Kenny Low",
         Song: "It Doesn't Matter",
       },
       external_url: `https://colorverse.social/nft-collections/cl7r55y1o00002vw2umse6pyb`,
