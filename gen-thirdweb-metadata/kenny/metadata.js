@@ -6,11 +6,11 @@ const iterator = [
   {
     delay:
       "https://bafybeiggiyet3fqbpjuzpvi42anyfc7awmnen47g5qifhviyjipz47l7ee.ipfs.nftstorage.link/10s.mp4",
-    full: "ipfs://bafybeida2ke7orusqa3us2c7dwikf7atbrlnczplieyr55jibcwkroayum",
+    full: "ipfs://bafybeiamsrj7islantk6vys5q5zcv4l66jf5ba3fy56khmjmhwq7xwda5m",
     delayCover:
       "https://bafybeiaydjzezgvebbceknvzvvtkkfibjnnhmw3ijwrhbxco3gh2h2m4gy.ipfs.nftstorage.link/",
     fullCover:
-      "ipfs://bafybeih37eyu7ldqjzmflmznchglzu35cthziwfcebd6qtbuxlb3scqsjq",
+      "ipfs://bafybeiefwntsuayxvjjvn72qs3uvzv7wodpfw3nflaxp3ps6mqn24z6hs4",
     count: 666,
   },
 ];
