@@ -24,11 +24,6 @@ for (let i = 0; i < iterator.length; i++) {
       description: `Kenny Low has released the music single "It Doesn't Matter" in NFT format. This NFT enables Kenny's supporters to get involved in the community, interact with him, co-create with him, and grow alongside him.\n\n"It Doesn't Matter" NFT allow you to receive Kenny's gifts and occasionally participate in raffles. These gifts can include online and offline concert tickets, exclusive gifts, and more. Additionally, they can collaborate on the "It Doesn't Matter" music single's MV planning and production.\n\nLearn more about “It Doesn’t Matter” music single here: https://colorverse.social/c/knylow/nft-collections`,
       animation_url: iterator[i].full,
       image: iterator[i].fullCover,
-      attributes: {
-        Album: "It's Kenny",
-        Artist: "Kenny Low",
-        Song: "It Doesn't Matter",
-      },
       properties: {
         Album: "It's Kenny",
         Artist: "Kenny Low",
