@@ -2,15 +2,18 @@
   "name": "tree-manipulation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^22.4.2",
-    "typescript": "^5.5.4"
+    "@types/node": "^14.14.31",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
   }
 }
