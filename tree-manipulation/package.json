@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts"
+    "dev:index": "ts-node src/index.ts",
+    "dev:uplines": "ts-node src/uplines.ts"
   },
   "keywords": [],
   "author": "",
